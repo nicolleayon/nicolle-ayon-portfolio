@@ -39,14 +39,16 @@ const Home = () => {
               icon={faMapMarkerAlt}
               className={styles["margin-right-5px"]}
             />
-            <h3 className={styles["margin-v-5px"]}>SF Bay Area, California </h3>
+            <h3 className={styles["margin-v-10px"]}>
+              SF Bay Area, California{" "}
+            </h3>
           </div>
           <div className={styles["flex-row-center"]}>
             <FontAwesomeIcon
               icon={faLaptopCode}
               className={styles["margin-right-5px"]}
             />
-            <h3 className={styles["margin-v-5px"]}>
+            <h3 className={styles["margin-v-10px"]}>
               Currently writing code at{" "}
               <a href="https://www.cognizant.com/us/en" id={styles.Cognizant}>
                 Cognizant
@@ -58,7 +60,7 @@ const Home = () => {
               icon={faCode}
               className={styles["margin-right-5px"]}
             />
-            <h3 className={styles["margin-v-5px"]}>
+            <h3 className={styles["margin-v-10px"]}>
               Learning: <i>React, Node.js, Springboot</i>{" "}
             </h3>
           </div>
@@ -83,8 +85,8 @@ const Home = () => {
                 alt="Screenshot of Portfolio Project"
               />
             </div>
-
             <p> React website portfolio via create-react-app.</p>
+            <p>React</p>
           </Card>
           <Card>
             <h2>Garden Market</h2>
@@ -99,6 +101,7 @@ const Home = () => {
               </div>
             </div>
             <p> Market for gardeners to sell homegrown fruits and veggies.</p>
+            <p>React</p>
           </Card>
           <Card>
             <h2>NOM</h2>
@@ -116,6 +119,7 @@ const Home = () => {
               Connect students to other students to be able to exchange dining
               hall passes.
             </p>
+            <p>React</p>
             <p> Class Project</p>
           </Card>
           <Card>
@@ -128,6 +132,7 @@ const Home = () => {
               />
             </div>
             <p>Website to find AED devices on the UC Santa Cruz campus.</p>
+            <p>HTML, CSS, Javascript</p>
             <p> Hackathon project</p>
           </Card>
           <Card>
@@ -140,6 +145,7 @@ const Home = () => {
               />
             </div>
             <p> Website for UC Santa Cruz campus clubs. </p>
+            <p>HTML, CSS, Javascript</p>
             <p> Hackathon project</p>
           </Card>
         </div>

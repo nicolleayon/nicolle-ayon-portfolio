@@ -1,10 +1,9 @@
 import React from "react";
-import styles from "../styles/Resume.module.css";
 import codeInProgressImg from "../images/CodeInProgress.png";
 
-const Resume = () => {
+const Photography = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <h1>Check back soon for updates...</h1>
       <img
         src={codeInProgressImg}
@@ -14,4 +13,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Photography;

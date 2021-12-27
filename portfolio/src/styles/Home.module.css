@@ -87,16 +87,11 @@ p {
 }
 
 .image-container {
-  /* justify-content: center; */
-  /* align-self: center; */
   text-align: center;
 }
 
 .card-project-img {
   width: 250px;
-  /* text-align: center; */
-  /* align-self: center; */
-  /* justify-content: center; */
 }
 
 .word-overlay-container {
@@ -119,16 +114,18 @@ p {
   margin: 20px 0px;
 }
 
-.margin-v-5px {
+.margin-v-10px {
   margin: 10px 0px;
 }
 
 .margin-right-5px {
   margin-right: 5px;
 }
+
 .btn-div {
   margin-top: 15px;
 }
+
 .btnYellow {
   display: flex;
   align-items: center;
