@@ -7,20 +7,59 @@ h1 {
 
 .container {
   display: block;
-  padding: 8%;
+  padding: 5%;
 }
 
 .aboutdiv {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap-reverse;
 }
 
-.btnLavender {
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  text-align: center;
+  margin: 5%;
+}
+
+.profile-pic {
+  width: 350px;
+  border-radius: 50%;
+}
+
+.one {
+  flex-basis: 20%;
+}
+
+.two {
+  flex-basis: 50%;
+}
+
+.margin-v-20px {
+  margin: 20px 0px;
+}
+
+.line-height-large {
+  line-height: 2em;
+}
+
+/* applied to btn */
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btnWineRed {
   display: flex;
   align-items: center;
-  background-color: #ac92ec;
+  background-color: #ad1844;
   height: 40px;
   border-style: none;
   border-radius: 24px;
@@ -31,38 +70,18 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8em;
   font-weight: bold;
-  color: #3a3936;
+  color: #ffffff;
   line-height: normal;
   cursor: pointer;
   padding: 2px 24px;
-}
-
-.flex-row-center {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  /* align-items: center; */
-  /* background-color: #ccc; */
 }
 
 .btn-div {
   margin-top: 30px;
 }
 
-.line-height-large {
-  line-height: 2em;
-}
-
-.image-container {
-  text-align: center;
-  margin: 5%;
-}
-
-.profile-pic {
-  width: 250px;
-  border-radius: 50%;
-}
-
-.margin-v-20px {
-  margin: 20px 0px;
+.small-text {
+  font-size: 0.8em;
+  color: #3a3936;
+  font-family: "Montserrat", sans-serif;
 }

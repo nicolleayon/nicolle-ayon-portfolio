@@ -7,15 +7,9 @@ const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.aboutdiv}>
-        <div className={styles["image-container"]}>
-          <img
-            src={profilepic}
-            className={styles["profile-pic"]}
-            alt="Nicolle Ayon smiling"
-          />
-        </div>
-
-        <div className={`${styles["flex-column"]} ${styles["margin-v-20px"]}`}>
+        <div
+          className={`${styles["flex-column"]} ${styles["margin-v-20px"]} ${styles.two}`}
+        >
           <h1>Hello. Hola. 你好。</h1>
           <p className={styles["line-height-large"]}>
             Hi! My name is Nicolle and I'm a software engineer in the SF Bay
@@ -26,15 +20,26 @@ const About = () => {
             Engineering Program. When I am not coding, I love to hike, travel,
             and take photos.
           </p>
-          <p>
+          <p
+            className={`${styles["line-height-large"]} ${styles["small-text"]}`}
+          >
             Fun fact: I'm bi-lingual (English and Spanish), and learning
             Mandarin Chinese.
           </p>
           <div className={`${styles["flex-row-center"]} ${styles["btn-div"]}`}>
-            <Link to="/resume" className={styles.btnLavender}>
+            <Link to="/resume" className={styles.btnWineRed}>
               resume
             </Link>
           </div>
+        </div>
+        <div
+          className={`${styles["flex-column"]} ${styles["image-container"]} ${styles.one}`}
+        >
+          <img
+            src={profilepic}
+            className={styles["profile-pic"]}
+            alt="Nicolle Ayon smiling"
+          />
         </div>
       </div>
     </div>

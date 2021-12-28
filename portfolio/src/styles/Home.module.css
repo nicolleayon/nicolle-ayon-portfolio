@@ -16,7 +16,6 @@ h3 {
   font-weight: 400;
   font-size: 1.2em;
   color: #3a3936;
-  font-family: "Montserrat", sans-serif;
 }
 
 p {
@@ -26,7 +25,7 @@ p {
 
 .container {
   display: block;
-  padding: 8%;
+  padding: 5%;
 }
 
 .hero {
@@ -106,6 +105,12 @@ p {
   transform: translate(-50%, -50%);
 }
 
+.small-text {
+  font-size: 0.8em;
+  color: #3a3936;
+  font-family: "Montserrat", sans-serif;
+}
+
 .no-margin {
   margin: 0px 0px;
 }
@@ -176,4 +181,8 @@ p {
 
 .lavenderPurple {
   color: #ac92ec;
+}
+
+.wineRed {
+  color: #ad1844;
 }

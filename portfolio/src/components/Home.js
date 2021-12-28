@@ -79,14 +79,20 @@ const Home = () => {
           <Card>
             <h2>Portfolio</h2>
             <div className={styles["image-container"]}>
-              <img
-                className={styles["card-project-img"]}
-                src={portfolioproject}
-                alt="Screenshot of Portfolio Project"
-              />
+              <a href="https://github.com/nicolleayon/nicolle-ayon-portfolio">
+                <img
+                  className={styles["card-project-img"]}
+                  src={portfolioproject}
+                  alt="Screenshot of Portfolio Project"
+                />
+              </a>
             </div>
-            <p> React website portfolio via create-react-app.</p>
-            <p>React</p>
+            <p>
+              {" "}
+              React website portfolio to showcase projects and resume created
+              via create-react-app.
+            </p>
+            <p className={`${styles["small-text"]}`}>React</p>
           </Card>
           <Card>
             <h2>Garden Market</h2>
@@ -101,16 +107,18 @@ const Home = () => {
               </div>
             </div>
             <p> Market for gardeners to sell homegrown fruits and veggies.</p>
-            <p>React</p>
+            <p className={`${styles["small-text"]}`}>React</p>
           </Card>
           <Card>
             <h2>NOM</h2>
             <div className={styles["word-overlay-container"]}>
-              <img
-                className={styles["card-project-img"]}
-                src={shapesbg}
-                alt="background with shapes"
-              />
+              <a href="https://github.com/nicolleayon/NOM">
+                <img
+                  className={styles["card-project-img"]}
+                  src={shapesbg}
+                  alt="background with shapes"
+                />
+              </a>
               <div className={styles["center-text-overlay"]}>
                 <h3>No Demo Available</h3>
               </div>
@@ -119,34 +127,38 @@ const Home = () => {
               Connect students to other students to be able to exchange dining
               hall passes.
             </p>
-            <p>React</p>
-            <p> Class Project</p>
+            <p className={`${styles["small-text"]}`}>React</p>
+            <p className={`${styles["small-text"]}`}>Class Project</p>
           </Card>
           <Card>
             <h2>AEDSimulator</h2>
             <div className={styles["image-container"]}>
-              <img
-                className={styles["card-project-img"]}
-                src={aedsimulator}
-                alt="Screenshot of Project AED Simulator Home Page"
-              />
+              <a href="https://github.com/nicolleayon/AEDSimulator">
+                <img
+                  className={styles["card-project-img"]}
+                  src={aedsimulator}
+                  alt="Screenshot of Project AED Simulator Home Page"
+                />
+              </a>
             </div>
             <p>Website to find AED devices on the UC Santa Cruz campus.</p>
-            <p>HTML, CSS, Javascript</p>
-            <p> Hackathon project</p>
+            <p className={`${styles["small-text"]}`}>HTML, CSS, Javascript</p>
+            <p className={`${styles["small-text"]}`}> Hackathon project</p>
           </Card>
           <Card>
             <h2>Clubs for Slugs</h2>
             <div className={styles["image-container"]}>
-              <img
-                className={styles["card-project-img"]}
-                src={clubsforslugs}
-                alt="Screenshot of Project Clubs for Slugs Home Page"
-              />
+              <a href="https://github.com/nicolleayon/clubs-for-slugs">
+                <img
+                  className={styles["card-project-img"]}
+                  src={clubsforslugs}
+                  alt="Screenshot of Project Clubs for Slugs Home Page"
+                />
+              </a>
             </div>
             <p> Website for UC Santa Cruz campus clubs. </p>
-            <p>HTML, CSS, Javascript</p>
-            <p> Hackathon project</p>
+            <p className={`${styles["small-text"]}`}>HTML, CSS, Javascript</p>
+            <p className={`${styles["small-text"]}`}>Hackathon project</p>
           </Card>
         </div>
       </section>
