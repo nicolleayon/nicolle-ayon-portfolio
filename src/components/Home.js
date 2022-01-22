@@ -88,26 +88,49 @@ const Home = () => {
               </a>
             </div>
             <p>
-              {" "}
               React website portfolio to showcase projects and resume created
               via create-react-app.
             </p>
-            <p className={`${styles["small-text"]}`}>React</p>
+            <p className={`${styles["small-text"]}`}>React, hosted on AWS S3</p>
+            <p className={`${styles["small-text"]}`}>
+              Github:{" "}
+              <a
+                href="https://github.com/nicolleayon/nicolle-ayon-portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                nicolle-ayon-portfolio
+              </a>
+            </p>
           </Card>
           <Card>
             <h2>Garden Market</h2>
             <div className={styles["word-overlay-container"]}>
-              <img
-                className={styles["card-project-img"]}
-                src={shapesbg}
-                alt="background with shapes"
-              />
+              <a href="https://github.com/nicolleayon/garden-market">
+                <img
+                  className={styles["card-project-img"]}
+                  src={shapesbg}
+                  alt="background with shapes"
+                />
+              </a>
               <div className={styles["center-text-overlay"]}>
-                <h3>No Demo Available</h3>
+                <a href="https://github.com/nicolleayon/garden-market">
+                  <h3>No Demo Available</h3>
+                </a>
               </div>
             </div>
             <p> Market for gardeners to sell homegrown fruits and veggies.</p>
             <p className={`${styles["small-text"]}`}>React</p>
+            <p className={`${styles["small-text"]}`}>
+              Github:{" "}
+              <a
+                href="https://github.com/nicolleayon/garden-market"
+                target="_blank"
+                rel="noreferrer"
+              >
+                garden-market
+              </a>
+            </p>
           </Card>
           <Card>
             <h2>NOM</h2>
@@ -120,20 +143,56 @@ const Home = () => {
                 />
               </a>
               <div className={styles["center-text-overlay"]}>
-                <h3>No Demo Available</h3>
+                <a href="https://github.com/nicolleayon/NOM">
+                  <h3>No Demo Available</h3>
+                </a>
               </div>
             </div>
             <p>
               Connect students to other students to be able to exchange dining
               hall passes.
             </p>
-            <p className={`${styles["small-text"]}`}>React</p>
-            <p className={`${styles["small-text"]}`}>Class Project</p>
+            <p className={`${styles["small-text"]}`}>
+              React / Firebase (Class project)
+            </p>
+            <p className={`${styles["small-text"]}`}>
+              Github:{" "}
+              <a
+                href="https://github.com/nicolleayon/NOM"
+                target="_blank"
+                rel="noreferrer"
+              >
+                NOM
+              </a>
+            </p>
+          </Card>
+          <Card>
+            <h2>myPhotos</h2>
+            <div className={styles["word-overlay-container"]}>
+              <img
+                className={styles["card-project-img"]}
+                src={shapesbg}
+                alt="background with shapes"
+              />
+
+              <div className={styles["center-text-overlay"]}>
+                <h3>No Demo Available</h3>
+              </div>
+            </div>
+            <p>Allows users to upload and store photos</p>
+            <p className={`${styles["small-text"]}`}>React / Spring Boot</p>
+            <p className={`${styles["small-text"]}`}>
+              Github: Private (due to company policy)
+            </p>
           </Card>
           <Card>
             <h2>AEDSimulator</h2>
             <div className={styles["image-container"]}>
-              <a href="https://github.com/nicolleayon/AEDSimulator">
+              <a
+                href="https://nicolleayon.github.io/AEDSimulator/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className={styles["card-project-img"]}
                   src={aedsimulator}
@@ -142,13 +201,28 @@ const Home = () => {
               </a>
             </div>
             <p>Website to find AED devices on the UC Santa Cruz campus.</p>
-            <p className={`${styles["small-text"]}`}>HTML, CSS, Javascript</p>
-            <p className={`${styles["small-text"]}`}> Hackathon project</p>
+            <p className={`${styles["small-text"]}`}>
+              HTML, CSS, Javascript (Hackathon project)
+            </p>
+            <p className={`${styles["small-text"]}`}>
+              Github:{" "}
+              <a
+                href="https://github.com/nicolleayon/AEDSimulator"
+                target="_blank"
+                rel="noreferrer"
+              >
+                AEDSimulator
+              </a>
+            </p>
           </Card>
           <Card>
             <h2>Clubs for Slugs</h2>
             <div className={styles["image-container"]}>
-              <a href="https://github.com/nicolleayon/clubs-for-slugs">
+              <a
+                href="https://nicolleayon.github.io/clubs-for-slugs/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className={styles["card-project-img"]}
                   src={clubsforslugs}
@@ -157,8 +231,20 @@ const Home = () => {
               </a>
             </div>
             <p> Website for UC Santa Cruz campus clubs. </p>
-            <p className={`${styles["small-text"]}`}>HTML, CSS, Javascript</p>
-            <p className={`${styles["small-text"]}`}>Hackathon project</p>
+            <p className={`${styles["small-text"]}`}>
+              HTML, CSS, Javascript (Hackathon project)
+            </p>
+            <p className={`${styles["small-text"]}`}>
+              Github:{" "}
+              <a
+                href="https://github.com/nicolleayon/clubs-for-slugs"
+                target="_blank"
+                rel="noreferrer"
+              >
+                clubs-for-slugs
+              </a>
+            </p>
+            <p className={`${styles["small-text"]}`}></p>
           </Card>
         </div>
       </section>
