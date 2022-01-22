@@ -89,17 +89,19 @@ const Resume = () => {
         <div className={styles.entry}>
           <p>
             <b>Programming Languages: </b>Java, HTML, CSS, JavaScript, React,
-            Node.js
-          </p>
-        </div>
-        <div className={styles.entry}>
-          <p>
+            Node.js &nbsp;&nbsp;&nbsp;&nbsp;
             <b>Familiar with: </b>C++, SQL, Angular, Firebase
           </p>
         </div>
         <div className={styles.entry}>
           <p>
-            <b>Software Tools: </b>Git, LaTeX, Unix
+            <b>Software Tools: </b>Git, LaTeX, Unix, Postman
+          </p>
+        </div>
+        <div className={styles.entry}>
+          <p>
+            <b>Training and Certifications: </b>Typescript (Udemy), AWS
+            Serverless APIs & Apps (Udemy), Java Basic (HackerRank)
           </p>
         </div>
       </section>
@@ -107,20 +109,16 @@ const Resume = () => {
       <section>
         <h2 className={styles["margin-top"]}>Experience</h2>
         <div className={styles.entry}>
-          <h3>Developer</h3>
+          <h3>Full Stack Engineer</h3>
           <p>Cognizant | June 2021 - present</p>
           <ul>
             <li>
-              Developed website projects in React, Node.js, HTML, CSS,
-              JavaScript
+              Developed website projects in React, Typescript, Node.js, Spring
+              Boot, HTML, CSS, and JavaScript
             </li>
             <li>
               Collaborate on a social media website clone project for enablement
-              project using React
-            </li>
-            <li>
-              Achieved certification in Java (HackerRank), and Typescript
-              (Udemy)
+              project using React Hooks and Bootstrap
             </li>
           </ul>
         </div>
@@ -128,10 +126,6 @@ const Resume = () => {
           <h3>Research Assistant</h3>
           <p>Tech4Good Research Lab | April 2018 - June 2019</p>
           <ul>
-            <li>
-              Assisted in the ongoing development of a website to help
-              facilitate undergrad reading groups (Angular/HTML/CSS)
-            </li>
             <li>
               Collaborated on an 8-person team to perfect the design and test
               the structure of undergrad reading groups through gathering data
@@ -143,6 +137,15 @@ const Resume = () => {
               participant satisfaction and retention
             </li>
           </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 className={styles["margin-top"]}>Projects</h2>
+        <div className={styles.entry}>
+          <h3>
+            <i>Please see home page or resume</i>
+          </h3>
         </div>
       </section>
 
