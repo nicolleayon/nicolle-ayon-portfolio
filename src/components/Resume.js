@@ -43,7 +43,7 @@ const Resume = () => {
             />
             <a
               className={styles["link-text"]}
-              href="mailto: nicolleayon@gmail.com"
+              href="mailto: nicolle.ayoncampos@cognizant.com"
             >
               nicolle.ayoncampos@cognizant.com
             </a>
