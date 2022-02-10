@@ -1,33 +1,25 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Modal from "../UI/Modal";
+import SettingsModal from "./SettingModal";
 import styles from "../styles/Navbar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCog,
-  faToggleOn,
-  faToggleOff,
-} from "@fortawesome/free-solid-svg-icons";
+import { faCog } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-  const [settingOn, setSettingOn] = useState(false);
+  const [showSettingsModal, setShowSettingsModal] = useState(false);
 
-  const handleSettingsClick = (event) => {
-    event.preventDefault();
-    setSettingOn(!settingOn);
+  const handleSettingsClick = () => {
+    setShowSettingsModal(true);
+  };
+
+  const handleCloseSetting = () => {
+    setShowSettingsModal(false);
   };
 
   return (
     <div>
-      {settingOn && (
-        <Modal title="Settings" onHandleExit={handleSettingsClick}>
-          <div className={styles.settingRow}>
-            <p>Night Mode</p>
-          </div>
-          <div className={styles.settingRow}>
-            <p>Color Blind Mode</p>
-          </div>
-        </Modal>
+      {showSettingsModal && (
+        <SettingsModal onCloseSetting={handleCloseSetting} />
       )}
       <nav>
         <NavLink to="/" className={styles["nav-logo"]}>
