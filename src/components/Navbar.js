@@ -1,17 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Modal from "../UI/Modal";
 import styles from "../styles/Navbar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCog } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCog,
+  faToggleOn,
+  faToggleOff,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
+  const [settingOn, setSettingOn] = useState(false);
+
+  const handleSettingsClick = (event) => {
+    event.preventDefault();
+    setSettingOn(!settingOn);
+  };
+
   return (
     <div>
-      <Modal title="Settings">
-        <h1>test h1</h1>
-        <h3>test h3</h3>
-      </Modal>
+      {settingOn && (
+        <Modal title="Settings" onHandleExit={handleSettingsClick}>
+          <div className={styles.settingRow}>
+            <p>Night Mode</p>
+          </div>
+          <div className={styles.settingRow}>
+            <p>Color Blind Mode</p>
+          </div>
+        </Modal>
+      )}
       <nav>
         <NavLink to="/" className={styles["nav-logo"]}>
           Nicolle Ayon Campos
@@ -33,7 +50,12 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <FontAwesomeIcon icon={faCog} />
+            <button
+              onClick={handleSettingsClick}
+              className={`${styles["btn"]}`}
+            >
+              <FontAwesomeIcon icon={faCog} />
+            </button>
           </li>
         </ul>
       </nav>

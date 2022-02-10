@@ -61,7 +61,7 @@ const Home = () => {
               className={styles["margin-right-5px"]}
             />
             <h3 className={styles["margin-v-10px"]}>
-              Learning: <i>React, Node.js, Springboot</i>{" "}
+              Learning: <i>React, Node.js, Spring Boot</i>
             </h3>
           </div>
           <div className={`${styles["flex-row-center"]} ${styles["btn-div"]}`}>

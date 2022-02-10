@@ -45,3 +45,24 @@ a[class="active"] {
   font-size: 1.5em;
   color: #3a3936;
 }
+
+.btn {
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+  color: #636059;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.settingRow {
+  border: red solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
