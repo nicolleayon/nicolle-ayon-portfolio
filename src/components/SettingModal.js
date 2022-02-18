@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../UI/Modal";
-import Switch from "../UI/Switch";
+import ToggleSwitch from "../UI/ToggleSwitch";
 import styles from "../styles/SettingsModal.module.css";
 
 const SettingsModal = (props) => {
@@ -12,7 +12,7 @@ const SettingsModal = (props) => {
       <Modal title="Settings" onHandleExit={props.onCloseSetting}>
         <div className={styles.settingRow}>
           <p>Night Mode</p>
-          <Switch
+          <ToggleSwitch
             isOn={darkMode}
             handleToggle={() => setDarkMode(!darkMode)}
             id={"darkMode"}
@@ -20,7 +20,7 @@ const SettingsModal = (props) => {
         </div>
         <div className={styles.settingRow}>
           <p>Color Blind Mode</p>
-          <Switch
+          <ToggleSwitch
             isOn={colorBlindMode}
             handleToggle={() => setColorBlindMode(!colorBlindMode)}
             id={"colorBlindMode"}

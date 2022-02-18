@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Switch.module.css";
+import styles from "./ToggleSwitch.module.css";
 
-const Switch = (props) => {
+const ToggleSwitch = (props) => {
   return (
     <>
       <input
@@ -22,4 +22,4 @@ const Switch = (props) => {
   );
 };
 
-export default Switch;
+export default ToggleSwitch;
