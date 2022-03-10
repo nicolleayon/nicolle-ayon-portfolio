@@ -1,31 +1,32 @@
 h1 {
   font-weight: 600;
   font-size: 2em;
-  color: #3a3936;
+  color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
 }
 
 h2 {
   font-weight: 500;
   font-size: 1.5em;
-  color: #3a3936;
+  color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
 }
 
 h3 {
   font-weight: 400;
   font-size: 1.2em;
-  color: #3a3936;
+  color: var(--text-primary);
 }
 
 p {
-  color: #3a3936;
+  color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
 }
 
 .container {
   display: block;
   padding: 5%;
+  background-color: var(--background);
 }
 
 .hero {
@@ -62,7 +63,7 @@ p {
 
 .section-title {
   font-weight: bolder;
-  color: #3a3936;
+  color: var(--text-primary);
   font-size: 2em;
 }
 
@@ -70,7 +71,7 @@ p {
   margin-top: 0;
   margin-bottom: 2%;
   padding-bottom: 1%;
-  border-bottom: 3px solid #3a3936;
+  border-bottom: 3px solid var(--text-primary);
   font-size: 1.75em;
   max-width: 150px;
 }
@@ -107,7 +108,7 @@ p {
 
 .small-text {
   font-size: 0.8em;
-  color: #3a3936;
+  color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -121,10 +122,6 @@ p {
 
 .margin-v-10px {
   margin: 10px 0px;
-}
-
-.margin-right-5px {
-  margin-right: 5px;
 }
 
 .btn-div {
@@ -145,7 +142,7 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8em;
   font-weight: bold;
-  color: #3a3936;
+  color: var(--text-primary);
   line-height: normal;
   cursor: pointer;
   padding: 2px 24px;
@@ -159,6 +156,11 @@ p {
 }
 
 /* COLORS  */
+.font-awesome-icon {
+  color: var(--text-primary);
+  margin-right: 5px;
+}
+
 .warmGrey {
   color: #636059;
 }

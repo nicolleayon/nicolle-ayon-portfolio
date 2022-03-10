@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Card from "../UI/Card";
 import styles from "../styles/Home.module.css";
-import computerCodeImg from "../images/computer-code.png";
+import NLogo from "../images/N-logo.png";
 import portfolioproject from "../images/project-portfolio.png";
 import clubsforslugs from "../images/project-clubsforslugs.png";
 import aedsimulator from "../images/project-aedsimulator.png";
@@ -21,14 +21,15 @@ const Home = () => {
         <div className={styles["hero-img"]}>
           <img
             className={styles["img-width"]}
-            src={computerCodeImg}
+            src={NLogo}
             alt="Desktop with lines of code"
           />
         </div>
 
         <div className={styles["flex-column"]}>
           <h2 className={styles["no-margin"]}>
-            <span className={styles.chalkyBlue}> Hello,</span> I'm Nicolle.
+            <span className={styles.chalkyBlue}> Hello,</span>
+            I'm Nicolle.
           </h2>
           <h1 className={styles["margin-v-20px"]}>
             Software Engineer <span className={styles.sunnyYellow}> & </span>
@@ -37,16 +38,17 @@ const Home = () => {
           <div className={styles["flex-row-center"]}>
             <FontAwesomeIcon
               icon={faMapMarkerAlt}
-              className={styles["margin-right-5px"]}
+              className={styles["font-awesome-icon"]}
             />
             <h3 className={styles["margin-v-10px"]}>
-              SF Bay Area, California{" "}
+              {"  "}
+              SF Bay Area, California
             </h3>
           </div>
           <div className={styles["flex-row-center"]}>
             <FontAwesomeIcon
               icon={faLaptopCode}
-              className={styles["margin-right-5px"]}
+              className={styles["font-awesome-icon"]}
             />
             <h3 className={styles["margin-v-10px"]}>
               Currently writing code at{" "}
@@ -58,7 +60,7 @@ const Home = () => {
           <div className={styles["flex-row-center"]}>
             <FontAwesomeIcon
               icon={faCode}
-              className={styles["margin-right-5px"]}
+              className={styles["font-awesome-icon"]}
             />
             <h3 className={styles["margin-v-10px"]}>
               Learning: <i>React, Node.js, Spring Boot</i>
